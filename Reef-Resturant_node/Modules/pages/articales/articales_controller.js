@@ -1,7 +1,9 @@
-const express = require('express');
+const express = require('express')
 const router = express.Router();
-const jsonArticales=require ('./articales.json');
+const articalesDb= require('./articales_db.js');
 
-module.exports.articalesPage = (req,res) => {
-    res.json(jsonArticales)
+
+
+module.exports.ArticalesPage = async (req,res) => {
+    res.json(await articalesDb.ArticalesPageJson())
 }

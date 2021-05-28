@@ -1,6 +1,7 @@
-const navbarJson=require('./navbar_json.json')
+const NavbarDB= require('./navbar_db.js');
 
 
-module.exports.navbarJson = () => {
-    return(navbarJson)
+
+module.exports.Navbar =(req,res) => {
+    return(NavbarDB.NavbarItems())
 }

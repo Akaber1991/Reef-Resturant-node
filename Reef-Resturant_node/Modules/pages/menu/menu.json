@@ -1,4 +1,4 @@
-export const ImagesMenu = [
+ [
   {
     "imgsrc":"/images/menu/1.jpg",
     "key":"men1"
@@ -34,5 +34,5 @@ export const ImagesMenu = [
   {
     "imgsrc":"/images/menu/9.jpg",
     "key":"men9"
-  },
+  }
 ]

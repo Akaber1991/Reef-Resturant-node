@@ -4,6 +4,6 @@ const homeDb=require ('./home_db.js');
 
 
 
-module.exports.homePage = (req,res) => {
-    res.json(homeDb.HomePageJson())
+module.exports.HomePage = async (req,res) => {
+    res.json(await homeDb.HomePageJson())
 }
