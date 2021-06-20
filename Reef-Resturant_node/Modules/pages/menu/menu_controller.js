@@ -5,5 +5,5 @@ const menuDb=require ('./menu_db.js');
 
 
 module.exports.MenuPage = async (req,res) => {
-    res.json(await menuDb.MenuPageJson())
+    res.json(await menuDb.MenuPageJson(req))
 }

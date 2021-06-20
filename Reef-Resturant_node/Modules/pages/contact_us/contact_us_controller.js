@@ -1,5 +1,9 @@
-const jsonContactUs=require ('./contact_us.json');
+const express = require('express')
+const router = express.Router();
+const contactDb= require('./contact_us_db.js');
 
-module.exports.contactUsPage = (req,res) => {
-    res.json(jsonContactUs)
+
+
+module.exports.ContactUsPage = async (req,res) => {
+    res.json(await contactDb.ContactUsPageJson(req))
 }

@@ -5,5 +5,5 @@ const businessDb=require ('./business_db.js');
 
 
 module.exports.BusinessPage = async (req,res) => {
-    res.json(await businessDb.BusinessPageJson())
+    res.json(await businessDb.BusinessPageJson(req))
 }

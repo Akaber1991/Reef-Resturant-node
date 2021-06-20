@@ -1,6 +1,6 @@
 
 {
-  "title" :"רייף מסעדה טאבון ובית קפה",
+  "title_reef" :"רייף מסעדה טאבון ובית קפה",
   "contact" : [
         {
          "icon":"fa fa-map-marker",
@@ -39,7 +39,6 @@
       }
     ],
   "img" :{
-
     "class" : "img-hever",
     "src" : "images/hever.jpg",
     "alt" : ""

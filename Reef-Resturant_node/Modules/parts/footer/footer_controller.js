@@ -1,6 +1,5 @@
-const footerJson=require('./footer_json.json')
+const FooterJSON= require('./footer_json.json');
 
-
-module.exports.footerJson = () => {
-    return(footerJson)
+module.exports.footerJson =(req,res) => {
+    return(FooterJSON)
 }
